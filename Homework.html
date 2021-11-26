@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		.title 		{font-family: fantasy;
+					background-color: yellow;
+					color: blueviolet;}
+		.head		{font-family: initial;
+					color: deeppink;}
+		.option	{font-family: initial;
+					color: royalblue;}
+	</style>
+	<title>Homework1_110306016</title>
+</head>
+<body>
+	<table border="1" style="border:3px #cccccc soild;" cellpadding="10">
+	<tr>
+		<th colspan="3" class="title">About -- 110306016</th>
+	</tr>
+	<tr>
+		<th rowspan="3"><img src="me.jpg" width="100" height="100"><br>personal photo</th>
+		<th colspan="2">
+			<label class="head">Name:
+			<input type="text" name="name" size="20" maxlength="30"><br></label>
+			Gender:
+			<input type="radio" name="gender" value="male" >Male
+			<input type="radio" name="gender" value="female" >Female
+			<input type="radio" name="gender" value="other" >Other
+		</th>
+	</tr>
+	<tr>
+		<th class="head">
+			Country:<select name="country">
+			<option value="taipei">Taipei</option>
+			<option value="tainan">Tainan</option>
+			<option value="taichung">Taichung</option>
+			<option value="taoyuan">Taoyuan</option>
+		</select>
+		</th>
+		<th class="head">
+			Birthday:
+			<input type="date" name="burthday">
+		</th>
+	</tr>
+	<tr>
+		<th colspan="2">
+			<label class="head">E-mail:
+		<input type="text" name="E-mail" size="50" maxlength="70">
+	</label>
+		</th>
+	</tr>
+	<tr>
+		<th class="head">Hobby</th>
+		<th colspan="2" class="option">
+			<input type="checkbox" name="hobby" value="swimming">Swimming
+			<input type="checkbox" name="hobby" value="volleyball">Volleyball
+			<input type="checkbox" name="hobby" value="movie">Movie
+			<input type="checkbox" name="hobby" value="game">Game
+			<input type="checkbox" name="hobby" value="sleep">Sleep
+		</th>
+	</tr>
+	<tr>
+		<th class="head">Skill</th>
+		<th colspan="2" class="option">
+			<input type="checkbox" name="skill" value="java">Java
+			<input type="checkbox" name="skill" value="html">HTML
+			<input type="checkbox" name="skill" value="python">Python
+			<input type="checkbox" name="skill" value="microsoft office">Microsoft Office
+			<input type="checkbox" name="skill" value="premiere">Premiere
+		</th>
+	</tr>
+	<tr>
+		<th class="head">Say Something</th>
+		<th colspan="2">
+			<textarea rows="3" cols="50">
+Say something here.
+			</textarea>
+		</th>
+	</tr>
+	<tr>
+		<th colspan="3">
+			<input type="submit" name="submit">
+			<input type="reset" name="clear">
+		</th>
+	</tr>
+	</table>
+
+</body>
+</html>
